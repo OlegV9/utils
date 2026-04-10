@@ -1,0 +1,32 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "Common JavaScript utilities",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "node build.js",
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.3"
+  },
+  "keywords": [
+    "utils",
+    "math",
+    "array",
+    "helpers"
+  ],
+  "author": "Oleg V",
+  "license": "ISC"
+}
