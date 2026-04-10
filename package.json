@@ -1,6 +1,6 @@
 {
   "name": "@olegv0907/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Common JavaScript utilities",
   "type": "module",
   "main": "./dist/index.cjs",
