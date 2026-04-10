@@ -27,6 +27,14 @@
     "array",
     "helpers"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlegV9/utils.git"
+  },
+  "homepage": "https://github.com/OlegV9/utils",
+  "bugs": {
+    "url": "https://github.com/OlegV9/utils/issues"
+  },
   "author": "Oleg V",
   "license": "ISC"
 }
